@@ -4,7 +4,7 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 ## Repository Quick Tour and Usage
 
-[Array Reverse]('javascript/reverseArrayJs/README.md')
+[Array Reverse](javascript/reverseArrayJs/README.md)
 
 ### 301 Code Challenges
 
