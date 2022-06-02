@@ -1,1 +1,1 @@
-![solution](ggx.png)
+![solution](oos.png)
