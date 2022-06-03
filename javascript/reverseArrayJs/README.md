@@ -1,3 +1,3 @@
 # Array Reverse
 
-![WhiteBoard](hhh.png)
+![WhiteBoard](sca.png)
