@@ -99,7 +99,7 @@ Write a function named sortByLength that takes in an array of strings and return
 const sortByLength = (arr) => {
   // Solution code here...
 };
-
+//strech
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 9 - Stretch Goal
 Write a function named sortNumbersByLength that takes in an array of numbers and sorts those numbers by their length.
