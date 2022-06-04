@@ -16,4 +16,4 @@
 
 # Test pic
 
-![pic](sss.png)
+![pic](scs.png)

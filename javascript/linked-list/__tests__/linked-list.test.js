@@ -1,76 +1,75 @@
 "use strict";
 
-// Require our linked list implementation
 const LinkedList = require("../index");
 
-describe("Instantiate a Linked List", () => {
+describe("start a linked list", () => {
   const linked = new LinkedList();
-  it("works", () => {
+  test("if it works", () => {
     expect(linked.head).toBeFalsy();
   });
 });
 
 describe("Can insert to linked list", () => {
   const linked = new LinkedList();
-  linked.insert(4);
-  it("works", () => {
-    expect(linked.head.value).toEqual(4);
+  linked.insert(9);
+  test("if it works", () => {
+    expect(linked.head.value).toEqual(9);
   });
 });
 
-describe("Head points always to the first element", () => {
+describe("if head is always on first element", () => {
   const linked = new LinkedList();
-  linked.insert(4);
-  linked.insert(24);
-  linked.insert(62);
-  linked.insert(192);
-  it("works", () => {
-    expect(linked.head.value).toEqual(192);
+  linked.insert(9);
+  linked.insert(66);
+  linked.insert(105);
+  linked.insert(982);
+  test("if it works", () => {
+    expect(linked.head.value).toEqual(982);
   });
 });
 
-describe("Can properly insert multiple nodes into the linked list", () => {
+describe("if can enter multiple nodes to the list", () => {
   const linked = new LinkedList();
   let arr = [];
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 32; i++) {
     linked.insert(i);
     arr.push(i);
   }
-  it("works", () => {
-    arr.forEach((val) => {
-      expect(linked.includes(val)).toBeTruthy();
+  test("if it works", () => {
+    arr.forEach((item1) => {
+      expect(linked.includes(item1)).toBeTruthy();
     });
   });
 });
 
-describe("Will return true when finding a value within the linked list that exists", () => {
+describe("will return true if value found", () => {
   const linked = new LinkedList();
-  linked.insert(4);
-  linked.insert(24);
-  linked.insert(62);
-  linked.insert(192);
-  it("works", () => {
-    expect(linked.includes(24)).toBeTruthy();
+  linked.insert(9);
+  linked.insert(33);
+  linked.insert(102);
+  linked.insert(502);
+  test("if it works", () => {
+    expect(linked.includes(33)).toBeTruthy();
   });
 });
 
 describe("Will return false when searching for a value in the linked list that does not exist", () => {
   const linked = new LinkedList();
-  linked.insert(4);
-  linked.insert(24);
-  linked.insert(62);
-  linked.insert(192);
-  it("works", () => {
+  linked.insert(9);
+  linked.insert(33);
+  linked.insert(102);
+  linked.insert(502);
+  test("if it works", () => {
     expect(linked.includes(94)).toBeFalsy();
   });
 });
 
 describe("Can properly return a collection of all the values that exist in the linked list", () => {
   const linked = new LinkedList();
-  linked.insert(4);
-  linked.insert(5);
-  linked.insert(100);
-  it("works", () => {
-    expect(linked.toString()).toBe("{100}=>{5}=>{4}=>NULL");
+  linked.insert(8);
+  linked.insert(2);
+  linked.insert(89);
+  test("works", () => {
+    expect(linked.toString()).toBe("{89}=>{2}=>{8}=>NULL");
   });
 });
