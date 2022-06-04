@@ -10,6 +10,8 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 [npmTestForCodeChallenges](javascript/ProofOfTest/README.md)
 
+[LinkedList](javascript/linked-list/README.md)
+
 - done
 
 ### 301 Code Challenges
