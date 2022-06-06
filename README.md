@@ -12,6 +12,8 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 [LinkedList](javascript/linked-list/README.md)
 
+[binarySearch](javascript/binarySearch/README.md)
+
 - done
 
 ### 301 Code Challenges
