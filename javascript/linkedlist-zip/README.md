@@ -1,2 +1,3 @@
-[!pic](hex.png)
-[!pic](test.png)
+![pic](hex.png)
+
+![pic](test.png)
