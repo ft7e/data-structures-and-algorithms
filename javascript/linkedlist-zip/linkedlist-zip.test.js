@@ -9,7 +9,7 @@ describe("Linked list initalization", () => {
     expect(link.head.value).toBe(null);
     expect(link.head.next).toBe(null);
   });
-
+  //
   test("insert value to linked list", () => {
     link.insert(4);
     link.insert(5);
