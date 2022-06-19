@@ -18,7 +18,7 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 [linked-list-kth](javascript/linked-list-kth/README.md)
 
-- done
+[linkedlist-zip](javascript/linkedlist-zip//README.md)
 
 ### 301 Code Challenges
 
