@@ -20,6 +20,8 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 [linkedlist-zip](javascript/linkedlist-zip//README.md)
 
+[Stack-Queue](javascript/Stack-Queue/README.md)
+
 ### 301 Code Challenges
 
 Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
