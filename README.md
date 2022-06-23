@@ -22,6 +22,8 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 [Stack-Queue](javascript/Stack-Queue/README.md)
 
+[Stack-Queue-Pseudo](javascript/Stack-Queue//Stack-Queue-Pseudo/README.md)
+
 ### 301 Code Challenges
 
 Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
