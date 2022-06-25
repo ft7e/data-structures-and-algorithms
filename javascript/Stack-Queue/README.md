@@ -1,3 +1,22 @@
+# Stack - Queue 
+
+Stack and Queue are a Data structure that are used to solve a certain types of problems, you make a class for each one for their methods and you create them using Nodes
+
+
+# Challenge
+
+Make a test to check if your stack and queue is working
+
+# API
+
+**For Stack**
+- Push : add an element
+- pop : removes the last added element
+
+**For Queue**
+- enqueue : to add an element 
+- dequeue : to remove the first element
+- 
 # Tests
 
 └─ $~ npm run test stack-queue
