@@ -10,9 +10,9 @@ Need to make a class to enqueue a node and dequeue a cat or dog and return null 
 
 ## API
 
-enqueue : adds an element into the queue, which runs the push method in the stack that adds an element to the stack
+enqueue : adds an element into the queue
 
-dequeue : removes an element from the queue which runs the pop method in the stack that removes the top element
+dequeue : removes an element from the queue 
 
 ## WhiteBoard
 
