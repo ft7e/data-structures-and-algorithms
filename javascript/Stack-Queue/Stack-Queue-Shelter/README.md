@@ -6,10 +6,7 @@ In stacks we deal with the top node only, in queue we use enqueue and dequeue wh
 
 Need to make a class to enqueue a node and dequeue a cat or dog and return null or the object we asked for
 
-## Approach & Efficiency
 
-Big O for time is O(n^2) since we loop twice
-O(n) for space
 
 ## API
 
@@ -21,7 +18,7 @@ dequeue : removes an element from the queue which runs the pop method in the sta
 
 ![pic](wb.png)
 
-## Big O
+## Approach & Efficiency
 
 Time : O(1)
 
