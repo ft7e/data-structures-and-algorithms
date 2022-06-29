@@ -26,6 +26,8 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 [Stack-Queue-Shelter](javascript/Stack-Queue//Stack-Queue-Shelter/README.md)
 
+[Stack-Queue-Brackets](javascript/Stack-Queue/Stack-Queue-Brackets/README.md)
+
 ### 301 Code Challenges
 
 Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
