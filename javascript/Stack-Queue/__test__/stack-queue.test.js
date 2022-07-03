@@ -42,23 +42,23 @@ describe("Stack and Queue test", () => {
     stack.pop();
     expect(stack.top).toBeNull();
   });
-  it("Can successfully peek the next item on the stack", () => {
+  it("Can successfully peak the next item on the stack", () => {
     let stack = new Stack();
     stack.push(1);
     stack.push(2);
     stack.push(3);
     stack.push(4);
     stack.push(5);
-    expect(stack.peek()).toBe(5);
+    expect(stack.peak()).toBe(5);
   });
   it("Can successfully instantiate an empty stack", () => {
     let stack = new Stack();
     expect(stack.top).toBeNull();
   });
-  it("Calling pop or peek on empty stack raises exception", () => {
+  it("Calling pop or peak on empty stack raises exception", () => {
     let stack = new Stack();
     expect(() => stack.pop()).toBeNull;
-    expect(() => stack.peek()).toBeNull;
+    expect(() => stack.peak()).toBeNull;
   });
   it("Can successfully enqueue into a queue", () => {
     let queue = new Queue();
@@ -83,14 +83,14 @@ describe("Stack and Queue test", () => {
     queue.enqueue(5);
     expect(queue.dequeue()).toBe(1);
   });
-  it("Can successfully peek into a queue, seeing the expected value", () => {
+  it("Can successfully peak into a queue, seeing the expected value", () => {
     let queue = new Queue();
     queue.enqueue(1);
     queue.enqueue(2);
     queue.enqueue(3);
     queue.enqueue(4);
     queue.enqueue(5);
-    expect(queue.peek()).toBe(1);
+    expect(queue.peak()).toBe(1);
   });
   it("Can successfully empty a queue after multiple dequeues", () => {
     let queue = new Queue();
@@ -110,9 +110,9 @@ describe("Stack and Queue test", () => {
     let queue = new Queue();
     expect(queue.front).toBeNull();
   });
-  it("Calling dequeue or peek on empty queue raises exception", () => {
+  it("Calling dequeue or peak on empty queue raises exception", () => {
     let queue = new Queue();
     expect(() => queue.dequeue()).toBeNull;
-    expect(() => queue.peek()).toBeNull;
+    expect(() => queue.peak()).toBeNull;
   });
 });

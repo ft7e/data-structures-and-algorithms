@@ -30,7 +30,7 @@ class Stack {
     this.length--;
     return node.value;
   }
-  peek() {
+  peak() {
     if (this.isEmpty()) {
       return null;
     }
