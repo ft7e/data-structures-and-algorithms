@@ -80,4 +80,7 @@ describe("Binary Test", () => {
     expect(tree1.root.left.value).toEqual(5);
     expect(tree1.root.right.value).toEqual(11);
   });
+  test("can return max val", () => {
+    expect(tree.getMaxVal()).toEqual(9);
+  });
 });
