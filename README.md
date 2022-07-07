@@ -32,6 +32,8 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 [Tree-Max](javascript/Trees/Tree-max/README.md)
 
+[Tree-Breadth](javascript/Trees/Tree-Breadth/README.md)
+
 ### 301 Code Challenges
 
 Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
