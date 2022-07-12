@@ -2,21 +2,28 @@
 
 ## Breadth-first
 
-Create a Binary Search Tree class
-This class should be a sub-class (or your languages equivalent) of the Binary Tree Class, with the following additional methods:
-Add
-Arguments: value
-Return: nothing
-Adds a new node with that value in the correct location in the binary search tree.
+Create a method that returns breadth first search
 
 ## Node
 
 Create a Node class that has properties for the value stored in the node, the left child node, and the right child node.
 
+## API
+
+didn't use any specific methods, just queue and loop
+
 ## Approach & Efficiency
 
-Depth first call stack via recursion with Node approach
+Breadth first Iterative
 
-The Big O for the Binary Tree is O(n)
+Space : O(n)
 
-The Big O for the Binary Tree Search is O(h) or O(hight)
+Time : O(n)
+
+## WB
+
+![pic](sc.png)
+
+## Tests
+
+✓ Breadth first
