@@ -65,6 +65,18 @@ class BinaryTree {
     traverse(this.root);
     return max;
   }
+  breadthFirst(root) {
+    if (!root) return [];
+    const queue1 = [root];
+    const result = [];
+    while (queue1.length > 0) {
+      const current = queue1.pop();
+      result.push(current.value);
+      if (current.left) queue1.unshift(current.left);
+      if (current.right) queue1.unshift(current.right);
+    }
+    return result;
+  }
 }
 
 module.exports = BinaryTree;

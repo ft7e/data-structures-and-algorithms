@@ -83,4 +83,23 @@ describe("Binary Test", () => {
   test("can return max val", () => {
     expect(tree.getMaxVal()).toEqual(9);
   });
+  test("Breadth first", () => {
+    let one = new Node(1);
+    let two = new Node(2);
+    let three = new Node(3);
+    let four = new Node(4);
+    let five = new Node(5);
+    let six = new Node(6);
+    let seven = new Node(7);
+
+    one.left = two;
+    two.left = four;
+    two.right = three;
+    four.right = seven;
+    three.left = six;
+    three.right = five;
+
+    let tree3 = new BinaryTree(one);
+    expect(tree3.breadthFirst(one)).toEqual([1, 2, 4, 3, 7, 6, 5]);
+  });
 });
