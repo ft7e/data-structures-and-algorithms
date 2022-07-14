@@ -18,4 +18,17 @@ three.left = six;
 three.right = five;
 
 let tree = new BinaryTree(one);
-console.log(tree.breadthFirst(one));
+const breadthFirst = (tree) => {
+  if (!tree.root) return [];
+  const queue1 = [tree.root];
+  const result = [];
+  while (queue1.length > 0) {
+    const current = queue1.pop();
+    result.push(current.value);
+    if (current.left) queue1.unshift(current.left);
+    if (current.right) queue1.unshift(current.right);
+  }
+  return result;
+};
+console.log(breadthFirst(tree));
+module.exports = breadthFirst;
