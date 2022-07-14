@@ -22,7 +22,7 @@ Time : O(n)
 
 ## WB
 
-![pic](sc.png)
+![pic](sq.png)
 
 ## Tests
 
