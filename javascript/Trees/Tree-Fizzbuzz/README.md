@@ -14,7 +14,7 @@ didn't use any specific methods, just queue and loop
 
 ## Approach & Efficiency
 
-Breadth first Iterative
+FizzBuzz Tree
 
 Space : O(n)
 
@@ -22,4 +22,4 @@ Time : O(n)
 
 ## WB
 
-## Tests
+[!pic](se.png)
